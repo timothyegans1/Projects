@@ -83,8 +83,8 @@ void combat(Fighter& player, Opponent& opponent) {
             opponent.takeDamage(15);
         }
 
-        if (opponentMove == "shin shoryuken") {
-            player.takeDamage(40);
+        if (opponentMove == "Shin Shoryuken") {
+            player.takeDamage(60);
         }
         else if (opponentMove == "enemy special move") {
             player.takeDamage(25);
